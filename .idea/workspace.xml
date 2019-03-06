@@ -1,85 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca0828b9-fa85-4b23-831d-9676c3de3c4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mobile_app/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile_app/lib/fragments/emergency_phone_number_fragment.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_app/lib/fragments/emergency_phone_number_fragment.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_app/pubspec.yaml" afterDir="false" />
+    <list default="true" id="bb27e505-6d24-4f27-a381-94e81edbc614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Flutter-CustomPhoneNumber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/custom_phone_number.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/custom_phone_number.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.dart_tool/" />
-    <ignored path="$PROJECT_DIR$/.idea/" />
-    <ignored path="$PROJECT_DIR$/.pub/" />
-    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1227514539">
+    <session id="-1165327701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="2" />
-          <entry key="md" value="1" />
+          <entry key="dart" value="1" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="2" />
-          <entry key="Markdown" value="1" />
+          <entry key="Dart" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="30" />
-          <entry key="yaml" value="31" />
+          <entry key="yaml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="30" />
-          <entry key="YAML" value="31" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/custom_phone_number.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-              <folding>
-                <element signature="e#30#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+            <state relative-caret-position="34">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -87,14 +80,317 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-5.1.1" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5.1.1" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Flutter-CustomPhoneNumber" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="Flutter-CustomPhoneNumber" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'Flutter-CustomPhoneNumber'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'Flutter-CustomPhoneNumber'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'Flutter-CustomPhoneNumber'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'Flutter-CustomPhoneNumber'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'Flutter-CustomPhoneNumber'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'Flutter-CustomPhoneNumber'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'Flutter-CustomPhoneNumber'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'Flutter-CustomPhoneNumber'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'Flutter-CustomPhoneNumber'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="Flutter-CustomPhoneNumber" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/Gradle/gradle-5.1.1/src/announce" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/antlr" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/base-services" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/base-services-groovy" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-cache" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-cache-http" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-cache-packaging" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-comparison" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-init" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-option" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/build-profile" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/cli" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/code-quality" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/composite-builds" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/core" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/core-api" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/dependency-management" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/diagnostics" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/docs" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/ear" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/execution" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/files" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/ide" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/ide-native" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/ide-play" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/installation-beacon" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/internal-android-performance-testing" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/internal-integ-testing" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/internal-performance-testing" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/internal-testing" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/ivy" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/jacoco" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/javascript" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/jvm-services" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/language-groovy" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/language-java" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/language-jvm" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/language-native" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/language-scala" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/launcher" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/logging" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/maven" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/messaging" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/model-core" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/model-groovy" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/native" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/osgi" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/persistent-cache" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/platform-base" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/platform-jvm" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/platform-native" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/platform-play" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/plugin-development" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/plugin-use" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/plugins" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/process-services" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/publish" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/reporting" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/resources" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/resources-gcs" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/resources-http" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/resources-s3" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/resources-sftp" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/scala" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/signing" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/snapshots" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/test-kit" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/testing-base" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/testing-junit-platform" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/testing-jvm" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/testing-native" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/tooling-api" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/tooling-api-builders" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/tooling-native" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/version-control" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/workers" />
+                  <option value="C:/Gradle/gradle-5.1.1/src/wrapper" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/ant-1.9.13.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/ant-launcher-1.9.13.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-api-metadata-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-base-services-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-base-services-groovy-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-build-cache-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-build-cache-packaging-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-build-option-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-cli-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-core-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-core-api-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-docs-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-execution-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-files-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-installation-beacon-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-jvm-services-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-kotlin-dsl-1.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-kotlin-dsl-provider-plugins-1.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-kotlin-dsl-tooling-builders-1.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-kotlin-dsl-tooling-models-1.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-launcher-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-logging-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-messaging-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-model-core-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-model-groovy-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-native-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-persistent-cache-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-process-services-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-resources-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-runtime-api-info-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-snapshots-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-tooling-api-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/gradle-wrapper-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-announce-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-antlr-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-build-cache-http-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-build-comparison-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-build-init-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-build-profile-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-code-quality-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-composite-builds-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-dependency-management-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-diagnostics-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-ear-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-ide-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-ide-native-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-ide-play-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-ivy-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-jacoco-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-javascript-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-language-groovy-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-language-java-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-language-jvm-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-language-native-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-language-scala-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-maven-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-osgi-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-platform-base-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-platform-jvm-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-platform-native-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-platform-play-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-plugin-development-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-plugin-use-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-plugins-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-publish-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-reporting-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-resources-gcs-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-resources-http-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-resources-s3-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-resources-sftp-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-scala-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-signing-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-test-kit-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-testing-base-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-testing-junit-platform-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-testing-jvm-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-testing-native-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-tooling-api-builders-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-tooling-native-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-version-control-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/gradle-workers-5.1.1.jar" />
+                  <option value="C:/Gradle/gradle-5.1.1/lib/plugins/ivy-2.3.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../Flutter-CustomPhoneNumberPackage" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Flutter-PhoneNumber" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../proiect/flow_me" value="PREVIEW" />
+        <entry key="D:/flow-me/flow_me" value="PREVIEW" />
+        <entry key="D:/news_app" value="PREVIEW" />
+        <entry key="D:/work-clock/work_clock" value="PREVIEW" />
+        <entry key="D:/work-clock/work_clock/work_clock" value="PREVIEW" />
+        <entry key="D:/work-flow-me/flow_me" value="PREVIEW" />
+        <entry key="D:/work-nexes-mobile/custom_phone_number_package_v1" value="PREVIEW" />
+        <entry key="D:/work-nexes-mobile/nexes-mobile/src/custom_phone_number_package_v2" value="PREVIEW" />
+        <entry key="D:/work-nexes-mobile/nexes-mobile/src/custom_phone_number_package_v3" value="PREVIEW" />
+        <entry key="D:/work-nexes-mobile/nexes-mobile/src/mobile_app" value="PREVIEW" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/custom_phone_number.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
     </option>
   </component>
@@ -104,36 +400,36 @@
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
+      <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="custom_phone_number" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_phone_number" type="462c0819:PsiDirectoryNode" />
+              <item name="Flutter-CustomPhoneNumber" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Flutter-CustomPhoneNumber" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="custom_phone_number" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom_phone_number" type="462c0819:PsiDirectoryNode" />
+              <item name="Flutter-CustomPhoneNumber" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Flutter-CustomPhoneNumber" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -148,16 +444,36 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca0828b9-fa85-4b23-831d-9676c3de3c4d" name="Default Changelist" comment="" />
-      <created>1551175863522</created>
+      <changelist id="bb27e505-6d24-4f27-a381-94e81edbc614" name="Default Changelist" comment="" />
+      <created>1551888896708</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551175863522</updated>
+      <updated>1551888896708</updated>
     </task>
     <servers />
   </component>
@@ -166,23 +482,27 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
+      <window_info id="Build Variants" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3295302" />
       <window_info id="Image Layers" />
       <window_info id="Structure" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3181208" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32991204" />
       <window_info anchor="bottom" id="Dart Analysis" weight="0.32991204" />
       <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Messages" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" />
       <window_info anchor="right" id="Flutter Inspector" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
     </layout>
@@ -191,38 +511,35 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/custom_phone_number_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/custom_phone_number.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#30#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

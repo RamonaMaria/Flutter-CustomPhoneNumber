@@ -1,26 +1,25 @@
 library custom_phone_number;
 
-import 'package:country_pickers/country.dart';
 import 'package:flutter/material.dart';
-import 'package:country_pickers/country_pickers.dart';
-
-/// A IntroScreen Class.
+import 'package:country_code_picker/country_code_picker.dart';
 
 class PhoneNumber extends StatefulWidget {
-  final ValueChanged<Map<String, dynamic>> onFieldSubmitted;
+  final ValueChanged<PhoneNumberObject> onFieldSubmitted;
   FormFieldValidator<String> validator;
   final String defaultCountry;
   final String placeholder;
-  final String initialValue;
   final String message;
+  final TextEditingController controller;
+  final GlobalKey<FormState> formKey;
 
   PhoneNumber(
       {this.onFieldSubmitted,
-        @required this.defaultCountry,
-        this.validator,
-        this.placeholder,
-        this.initialValue,
-        this.message});
+      @required this.defaultCountry,
+      this.validator,
+      this.placeholder,
+      this.message,
+      this.controller,
+      this.formKey});
 
   @override
   State<StatefulWidget> createState() => _PhoneNumberState();
@@ -28,12 +27,13 @@ class PhoneNumber extends StatefulWidget {
 
 class _PhoneNumberState extends State<PhoneNumber> {
   var data = Map<String, dynamic>();
-  final formKey = GlobalKey<FormState>();
+
+//  final formKey = GlobalKey<FormState>();
+  PhoneNumberObject _phoneNumber = new PhoneNumberObject();
 
   @override
   void initState() {
-    data['country'] =
-        CountryPickerUtils.getCountryByIsoCode(widget.defaultCountry);
+    data['country'] = getCountryPrefix(widget.defaultCountry);
   }
 
   _PhoneNumberState() {}
@@ -44,52 +44,53 @@ class _PhoneNumberState extends State<PhoneNumber> {
         padding: new EdgeInsets.all(6.0),
         child: Form(
             autovalidate: false,
-            key: formKey,
+            key: widget.formKey,
             child: Center(
                 child: ListView(shrinkWrap: true, children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      Expanded(
-                        flex: 3,
-                        child: CountryPickerDropdown(
-                          initialValue: widget.defaultCountry,
-                          itemBuilder: _buildDropdownItem,
-                          onValuePicked: (Country country) {
-                            data['country'] = country;
-                          },
-                        ),
-                      ),
-                      Expanded(
-                          flex: 3,
-                          child: TextFormField(
-                            maxLength: 20,
-                            decoration:
-                            InputDecoration(hintText: widget.placeholder),
-                            keyboardType: TextInputType.phone,
-                            initialValue: widget.initialValue,
-                            validator: widget.validator,
-                            onFieldSubmitted: (String value) {
-                              if (formKey.currentState.validate()) {
-                                data['phone_number'] = value;
-                                widget.onFieldSubmitted(data);
-                              }
-                            },
-                          )),
-                    ],
+              Row(
+                children: <Widget>[
+                  Expanded(
+                    flex: 3,
+                    child: CountryCodePicker(
+                      onChanged: (value) {
+                        this.data["country_prefix"] = value.dialCode;
+                      },
+                      initialSelection: getCountryPrefix(widget.defaultCountry),
+                    ),
                   ),
-                  Text(widget.message),
-                ]))));
+                  Expanded(
+                      flex: 2,
+                      child: TextFormField(
+                        maxLength: 20,
+                        decoration:
+                            InputDecoration(hintText: widget.placeholder),
+                        keyboardType: TextInputType.phone,
+                        controller: widget.controller,
+                        validator: widget.validator,
+                        onSaved: (String value) {
+                          data['phone_number'] = value;
+                          _phoneNumber.phoneNumber = value;
+                          _phoneNumber.phoneCode = data['country_prefix'];
+                          widget.onFieldSubmitted(_phoneNumber);
+                        },
+                      )),
+                ],
+              ),
+              Text(widget.message),
+            ]))));
   }
 
-  Widget _buildDropdownItem(Country country) => Container(
-    child: Row(
-      children: <Widget>[
-        CountryPickerUtils.getDefaultFlagImage(country),
-        SizedBox(
-          width: 8.0,
-        ),
-        Text("+${country.phoneCode}(${country.isoCode})"),
-      ],
-    ),
-  );
+  getCountryPrefix(String countryPrefix) {
+    if (countryPrefix.isEmpty) {
+      Locale myLocale = Localizations.localeOf(context);
+      return myLocale.countryCode;
+    }
+
+    return countryPrefix;
+  }
+}
+
+class PhoneNumberObject {
+  String phoneCode;
+  String phoneNumber;
 }
