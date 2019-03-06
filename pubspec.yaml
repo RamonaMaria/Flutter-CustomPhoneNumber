@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  country_pickers: "^1.0.1"
+  country_code_picker: ^1.1.1
 
 dev_dependencies:
   flutter_test:
