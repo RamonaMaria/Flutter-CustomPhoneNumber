@@ -50,7 +50,7 @@ class _PhoneNumberState extends State<PhoneNumber> {
               Row(
                 children: <Widget>[
                   Expanded(
-                    flex: 3,
+                    flex: 2,
                     child: CountryCodePicker(
                       onChanged: (value) {
                         this.data["country_prefix"] = value.dialCode;
@@ -59,7 +59,7 @@ class _PhoneNumberState extends State<PhoneNumber> {
                     ),
                   ),
                   Expanded(
-                      flex: 2,
+                      flex: 3,
                       child: TextFormField(
                         maxLength: 20,
                         decoration:
